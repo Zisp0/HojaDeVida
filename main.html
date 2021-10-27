@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formato único hoja de vida</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="shortcut icon" href="pictures/escudo.png">
+    </head>
+
+    <body>
+        <div class="hoja">
+            <header>
+                <div class="escudoCont">
+                    <img src="pictures/escudo.png">
+                </div>
+
+                <div class="textCont">
+                    <p id="p1"><strong>FORMATO ÚNICO</strong></p>
+                    <h1>HOJA DE VIDA</h1>
+                    <p id="p2"><strong>Persona Natural</strong></p>
+                    <p>(Leyes 190 de 1995, 489 y 443 de 1998)</p>
+                </div>
+
+                <div class="inputCont">
+                    <p><em>ENTIDAD RECEPTORA</em></p>
+                    <input type="text">
+                </div>
+            </header>
+
+            <div class="item">
+                <div class="itemNum">
+                    <p>1</p>
+                </div>
+                <div class="raya">
+                    <hr>
+                </div>
+                <div class="itemText">
+                    <p>DATOS PERSONALES</p>
+                </div>                
+            </div>
+
+            <div class="prinCont">
+                <div class="horCont horContB">
+                    <div class="verCont verContB">
+                        <p><em>PRIMER APELLIDO</em></p>
+                        <input type="text">
+                    </div>
+
+                    <div class="verCont verContB">
+                        <p><em>SEGUNDO APELLIDO ( O DE CASADA )</em></p>
+                        <input type="text">
+                    </div>
+
+                    <div class="verCont">
+                        <p><em>NOMBRES</em></p>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="horCont horContB">
+                    <div class="verCont verContB">
+                        <p><em>DOCUMENTO DE IDENTIFICACIÓN</em></p>
+
+                        <div class="horCont">
+                            <p>C.C</p>
+                            <input type="radio" name="doc" class="rb">
+                            <p>C.E</p>
+                            <input type="radio" name="doc" class="rb">
+                            <p>PAS</p>
+                            <input type="radio" name="doc" class="rb">
+                            <p>No.</p>
+                            <input type="text" id="ib1">
+                        </div>
+                    </div>
+
+                    <div class="verCont verContB">
+                        <p><em>SEXO</em></p>
+
+                        <div class="horCont">
+                            <p>F</p>
+                            <input type="radio" name="sex" class="rb">
+                            <p>M</p>
+                            <input type="radio" name="sex" class="rb">
+                        </div>
+                    </div>
+
+                    <div class="horCont">
+                        <div class="verCont">
+                            <p><em>NACIONALIDAD</em></p>
+                            
+                            <div class="horCont">
+                                <p>COL.</p>
+                                <input type="radio" name="na" class="rb">
+                                <p>EXTRANJERO</p>
+                                <input type="radio" name="na" class="rb">
+                            </div>
+                        </div>
+
+                        <div class="verCont">
+                            <p><em>PAÍS</em></p>
+                            <input type="text" id="ib2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="horCont horContB">
+                    <div class="verCont">
+                        <p><em>LIBRETA MILITAR</em></p>
+
+                        <div class="horCont horContSB">
+                            <p>PRIMERA CLASE</p>
+                            <input type="radio" name="lm" class="rb">
+                            <P>SEGUNDA CLASE</P>
+                            <input type="radio" name="lm" class="rb">
+                            <p>NÚMERO</p>
+                            <input type="text" id="ib3">
+                            <p>D.M</p>
+                            <input type="text" id="ib4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="horCont">
+                    <div class="verCont verContB">
+                        <p><em>FECHA Y LUGAR DE NACIMIENTO</em></p>
+
+                        <div class="horCont horContSB">
+                            <p class="pTM">FECHA</p>
+                            <p>DÍA</p>
+                            <input type="text" id="ib5">
+                            <p>MES</p>
+                            <input type="text" id="ib6">
+                            <p>AÑO</p>
+                            <input type="text" id="ib7">
+                        </div>
+
+                        <div class="horCont">
+                            <p class="pTM">PAÍS</p>
+                            <input type="text" id="ib8">
+                        </div>
+
+                        <div class="horCont">
+                            <p class="pTM">DEPTO</p>
+                            <input type="text" id="ib9">
+                        </div>
+
+                        <div class="horCont">
+                            <p class="pTM">MUNICIPIO</p>
+                            <input type="text" id="ib10">
+                        </div>
+                    </div>
+
+                    <div class="verCont">
+                        <p><em>DIRECCIÓN DE CORRESPONDENCIA</em></p>
+                        <input type="text" id="ib11">
+
+                        <div class="horCont horContSB">
+                            <p>PAÍS</p>
+                            <input type="text" id="ib12">
+                            <p>DEPTO</p>
+                            <input type="text" id="ib13">
+                        </div>
+
+                        <div class="horCont">
+                            <p>MUNICIPIO</p>
+                            <input type="text" id="ib14">
+                        </div>
+
+                        <div class="horCont horContSB">
+                            <p>TElÉFONO</p>
+                            <input type="text" id="ib15">
+                            <p>EMAIL</p>
+                            <input type="text" id="ib16">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer><br><br></footer>
+        </div>
+    </body>
+</html>
